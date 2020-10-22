@@ -20,5 +20,7 @@ COPY  run-app.sh /opt/app-root/bin/
 
 EXPOSE 8080
 
+USER 1001
+
 # Run the fat JAR
 CMD   /opt/app-root/bin/run-app.sh
